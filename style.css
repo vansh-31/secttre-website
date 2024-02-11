@@ -369,3 +369,36 @@ nav {
 	color: var(--text-light);
 	text-align: left;
 }
+.swiper-pagination-bullet-active {
+	background-color: var(--primary-color);
+}
+
+.banner {
+	background-color: var(--extra-light);
+}
+
+.banner-container {
+	display: grid;
+	gap: 2rem;
+}
+
+.banner-content .section-header {
+	margin-bottom: 1rem;
+}
+
+.banner-form form {
+	width: 100%;
+	max-width: 400px;
+	margin-inline: auto;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.banner-form input {
+	width: 100%;
+	padding: 0.75rem;
+	outline: none;
+	border: 1px solid var(--text-light);
+	border-radius: 5px;
+}
